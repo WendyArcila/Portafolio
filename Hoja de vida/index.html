@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <title>HV WAR </title>
+    <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
+    <script src="JS/JS.js"></script>
+
+</head>
+<body  class= cuerpo onload="main()">
+    <header class="encabezado">
+        <nav class="menu">
+            <a href="../index.html" class="nav-enlace">Cantera 1</a>
+            <a href="../pseint.html" class="nav-enlace">PSeInt </a>
+            <a href="../java.html" class="nav-enlace"> Java </a>
+            <a href="index.html" class="nav-enlace"> Hoja de vida</a>
+        </nav>
+        <figure>
+            <img width="180" src="img/fotoWen.png" style="border: dotted 10px aqua">
+        </figure>
+        <h1 id="nombre" >  WENDY S. ARCILA RUIZ</h1>
+        <h3> Psicóloga especialista en salud mental</h3>
+    </header>
+    <div class="contenedor" >
+        <h2> Perfil profesional</h2>
+        <hr style=background-color:aqua>
+        <p>Experiencia laboral como psicóloga educativa, liderando proyectos de fortalecimiento de habilidades para la vida,
+             competencias socioemocionales, convivencia, entre otros.
+             He trabajado con diversos grupos poblacionales entre los que destacan jóvenes, niños y niñas, población vulnerable
+             y en condición de discapacidad. El compromiso, creatividad y trabajo en equipo, han sido las habilidades más han
+             resaltado en mí que hacer.
+        </p>
+    </div>
+    <section  class="contacto">
+        <h2> Contacto </h2>
+        <hr style=background-color:aqua>
+        <ul>
+            <li><b>Teléfono:</b>6043241220</li>
+            <li><b>Celular:</b> 3043318521</li>
+            <li><b>Correo:</b> wendy.arcilar@gmail.com</li>
+        </ul>
+    </section>
+    <aside>
+        <div class="descarga">
+            <h1><a HREF="PDF/DLLOHV.pdf" target="_blank"><span>Descargar HV en formato PDF </span></a></h1>
+        </div>
+        <section class="enlaces">
+            <h2 id="enlace1"><a href="Experiencia.html">Experiencia laboral</a></h2>
+            <h2 id="enlace2"><a href="Estudios.html">Estudios realizados</a></h2>
+            <h2 id="enlace3"><a href="ReferenciaPersonales.html">Referencias personales</a></h2>
+            <h2 id="enlace4"><a href="ReferenciasFamiliares.html">Referencias familiares</a></h2>
+        </section>
+    </aside>
+    <a href="Experiencia.html" class="neon">
+        Siguiente
+    </a>
+    <button class="noche"
+            type="button"
+            onclick="cambiarEstilo1('cuerpo','contenedor','descarga','contacto','enlaces','encabezado')"
+    >
+        Modo Noche
+    </button>
+    <button class="tarde"
+            type="button"
+            onclick="cambiarEstilo2('cuerpo','contenedor','descarga','contacto','enlaces','encabezado')"
+    >
+        Modo Tarde
+    </button>
+    <button class="dia"
+            type="button"
+            onclick="estiloOriginal('cuerpo','contenedor','descarga','contacto','enlaces','encabezado')"
+    >
+       Modo día
+    </button>
+</body>
+</html>
